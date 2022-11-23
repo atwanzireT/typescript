@@ -19,3 +19,17 @@ function fn(x) {
 // console.log(fn(123))
 
 // the above function hits an error
+
+// Non Exceptional Errors
+const User = {
+    name : "Daniel",
+    age : 16
+}
+// console.log(User.location) // this returns undefined
+
+// typos
+const announcement = "This is an announcement";
+
+// How quickly can you spot the typos?
+console.log(announcement.toLocaleLowerCase())
+console.log(announcement.toLocaleLowerCase())
